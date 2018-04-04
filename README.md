@@ -5,7 +5,7 @@ tasks automation with [Grunt](http://gruntjs.com/).  Also, this project contains
 to use for managing: date,  logging, configuration, requests, yaml, json and promise. Finally, it has [Travis CI](https://travis-ci.org/) 
 integration too.
 
-## Basic usage 
+## Basic usage  hola
 
 > In this guide is assumed you're using Visual Studio Code in Windows
 
