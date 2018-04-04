@@ -181,48 +181,7 @@ You MUST change the following fields:
 - **[ MUST ]** `repository.web` = Web view of your repository, Github for example.
 - **[ MUST ]** `docker.url` = If you use docker for delivering and running your app.
 
-## 3. Adapt the bower
-
-Secondly, you must adapt the `bower.json` file and modify some values for defining your front-end dependencies. A `bower.json` is generally seemed such as the following.
-
-```js
-{
-  "name": "project-template-nodejs",
-  "description": "Project Template for Node JS developments",
-  "main": "index.js",
-  "authors": [{
-    "name": "ISA group",
-    "web": "http://www.isa.us.es/"
-  }],
-  "license": "GPL-3.0+",
-  "keywords": [
-    "template",
-    "nodejs",
-    "node",
-    "project"
-  ],
-  "homepage": "https://github.com/isa-group/project-template-nodejs",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "public/bower_components/",
-    "test",
-    "tests"
-  ]
-}
-```
-
-You MUST change the following fields:
-
-- **[ MUST ]** `name` = Name of your project. 
-- **[ COULD ]** `description` = A breaf description of your proyect.
-- **[ MUST ]** `homepage` = Web or Github's homepage of your project.
-- **[ SHOULD ]** `keywords` = Key words for idenfiying your project.
-- **[ MUST ]** `author.name`= Your name or your organization name.
-- **[ MUST ]** `author.web` = Author web site.
-
-## 4. Modify Gruntfile
+## 3. Modify Gruntfile
 
 Grunt is a task runner that wrap up jobs into tasks that are compiled automatically. 
 After adapting `package.json`, you must select and configure Grunt tasks. It is recommended 
@@ -429,7 +388,7 @@ Reports are generated in index.html file (public\coverage\lcov-report\index.html
 You must change `..options.name` to the name of your project and set up these environment
 variables on command line. 
 
-### 4.2 Custom tasks
+### 3.2 Custom tasks
 
 You are able to define your own tasks as follows:
 
@@ -467,7 +426,7 @@ grunt.registerTask('import', 'drop and import data', function () {
  });
  ```
 
-### 4.3 Select and Configure tasks
+### 3.3 Select and Configure tasks
 
 For executing default tasks run:
 
@@ -498,11 +457,11 @@ And you always execute this while you are developing:
 ```
 grunt dev
 ```
-## 5. Clear CHANGELOG
+## 4. Clear CHANGELOG
 
 Remove all line on `CHANGELOG.md`.
 
-## 6. Remove git directory
+## 5. Remove git directory
 
 If it exists then remove `.git` and initialize the repository for the new project.
 
@@ -510,11 +469,11 @@ If it exists then remove `.git` and initialize the repository for the new projec
 git init
 ```
 
-## 7. Edit the README
+## 6. Edit the README
 
 Clean the `README.md` and remove all lines except `## Latest release` and following.
 
-## 8. CI with Travis CI
+## 7. CI with Travis CI
 
 If your new project is public you must integrate Continuous Integration with Travis CI, by following the next steps:
 
@@ -567,7 +526,7 @@ script:
 ```
 
 
-## 9. Developing your project
+## 8. Developing your project
 
 In order to be lined up to Github philosophy, you must use 
 [Github Flow](https://guides.github.com/introduction/flow/) that is a lightweight, 
@@ -783,7 +742,7 @@ app.use(bodyParser.json());
 ```
 
 
-10. How to make a release and deliver
+9. How to make a release and deliver
 
 ### PRECONDITIONS
   - There is a milestone named "vA.B.C" (being A,B,C digits [0-9])
