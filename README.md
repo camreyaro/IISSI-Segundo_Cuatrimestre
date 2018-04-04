@@ -742,7 +742,7 @@ app.use(bodyParser.json());
 ```
 
 
-9. How to make a release and deliver
+## 9. How to make a release and deliver
 
 ### PRECONDITIONS
   - There is a milestone named "vA.B.C" (being A,B,C digits [0-9])
