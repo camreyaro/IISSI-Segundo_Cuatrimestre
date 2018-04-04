@@ -2,7 +2,7 @@
 
 This repository contains a template for a [Node JS](https://nodejs.org/en/) project with some development policy and 
 tasks automation with [Grunt](http://gruntjs.com/).  Also, this project contains some NPM modules that you have 
-to use for managing: date,  logging, configuration, requests, yaml, json and promise. Finally, it has [Travis CI](https://travis-ci.org/) 
+to use for managing: date,  logging, configuration, requests, yhind promise. Finally, it has [Travis CI](https://travis-ci.org/) 
 integration too.
 
 ## Basic usage  hola
