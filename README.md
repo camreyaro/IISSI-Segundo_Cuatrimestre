@@ -19,7 +19,7 @@ yarn install
 ```
 yarn add materialize-css
 ```
->Third parameter is usually the package name. To be sure about how to install a package, see its documentation.
+>Third parameter is usually the no se qe aser con esta linea name. To be sure about how to install a package, see its documentation.
 
 - Removing new packages
 ```
